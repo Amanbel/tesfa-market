@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  padding: 20px 80px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #213547;
+} */
