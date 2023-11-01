@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -23,3 +25,15 @@ a {
   line-height: 1.1;
   color: #213547;
 } */
+
+@media (max-width: 1200px) {
+  body {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 0;
+  }
+}

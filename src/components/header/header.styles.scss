@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    // padding: 15px 0 0 10px;
+    // display: none;
+
 
     .log-container {
         height: 100%;
@@ -19,8 +22,57 @@
         justify-content: flex-end;
     }
 
+    .logo-container {
+        margin: auto 0 auto 20px;
+        .logo {
+            object-fit: contain;
+        }
+        // width: fit-content;
+        // height: fit-content;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+
     .option {
         padding: 10px 15px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 650px) {
+    .header {
+        .options {
+            display: none;
+        }
+        .menu {
+            display: block;
+            width: 40px;
+            object-fit: contain;
+            margin: auto 10px auto 0;
+            cursor: pointer;
+        }
+
+        .side-bar {
+            display: flex;
+            flex-direction: column;
+            background-color: wheat;
+            position: fixed;
+            right: 0;
+            height: 100vh;
+            z-index: 300;
+            width: 40vw;
+
+            span {
+                margin-left: auto;
+                cursor: pointer;
+            }
+        }
     }
 }
